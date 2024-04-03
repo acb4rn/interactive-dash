@@ -11,6 +11,8 @@ df = pd.read_csv('data.csv')
 #deploying the app
 app = Dash(__name__, external_stylesheets=[dbc.themes.QUARTZ])
 
+server = app.server
+
 app.layout = html.Div([ 
     html.Div(html.H1("Cases of Lethal Police Force in the United States", style={'textAlign':'center'})), #adding a header
     html.Br(), #adding a break between the header and the next elements
@@ -62,4 +64,4 @@ def update_graph_date(selected_dates, race):
     return fig
 
 if __name__ == '__main__':
-    app.run_server(jupyter_mode='tab', debug=True)
+    app.run_server(debug=True)
