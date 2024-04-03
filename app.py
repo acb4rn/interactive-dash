@@ -63,5 +63,6 @@ def update_graph_date(selected_dates, race):
     fig.update_layout(paper_bgcolor='rgba(255,255,255,0.3)') #making the background of the graph slightly transparent
     return fig
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+if __name__ == "__main__":
+ app.run_server(debug=True)
+ 
