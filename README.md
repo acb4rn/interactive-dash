@@ -15,3 +15,5 @@ LEARNING EXPERIENCES:
 
 The process of building this dashboard encouraged critical thinking and problem solving skills to overcome obstacles. Furthermore, independent working and thinking was fostered and served to establish confidence in coding and problem solving. Additionally, this process relied heavily on the flexibility of design and feasibility of project components in order to create a cohesive and effective dashboard. 
 
+Original dataset is too large for uploading to Github. 
+Link to original data: https://airtable.com/appzVzSeINK1S3EVR/shroOenW19l1m3w0H/tblxearKzw8W7ViN8
